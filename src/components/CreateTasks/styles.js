@@ -13,6 +13,7 @@ export const TaskContainer = styled.section`
 
     border-radius: 8px;
     border: none;
+    box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, .2);
 
     background-color: ${({ theme }) => theme.COLORS.gray500};
     color: ${({ theme }) => theme.COLORS.gray100};
@@ -30,6 +31,7 @@ export const TaskContainer = styled.section`
     border: none;
 
     background-color: ${({ theme }) => theme.COLORS.blueDark};
+    box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, .2);
     color: ${({ theme }) => theme.COLORS.gray100};
     font-weight: 700;
 

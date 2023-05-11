@@ -14,6 +14,7 @@ COLORS: {
     purpleDark: "#5E60CE",
     blue: "#4EA8DE",
     blueDark: "#1E6F9F",
+    orange: "#ff9900"
   },
 
 

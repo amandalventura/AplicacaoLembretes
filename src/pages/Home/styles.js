@@ -8,4 +8,6 @@ export const HomeContainer = styled.main `
 
    display: flex;
    justify-content: center;
+   flex-direction: column;
+   gap: 2.5rem;
 `
