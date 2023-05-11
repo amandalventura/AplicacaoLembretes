@@ -4,7 +4,8 @@ export default createGlobalStyle `
     *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;        
+        box-sizing: border-box;  
+        font-family: 'Inter', sans-serif;      
     }
 
     root {
@@ -12,6 +13,8 @@ export default createGlobalStyle `
     }
 
     body {
+        width: 100%;
+        height: 100vh;
         background-color: #1a1a1a;
         color: white;
 
@@ -33,10 +36,6 @@ export default createGlobalStyle `
     button, a {
         cursor: pointer;
         transition: filter .2s;
-      }
-    
-    button:hover, a:hover {
-        filter: brightness(.7);
       }
 }
 
