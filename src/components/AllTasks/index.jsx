@@ -11,7 +11,7 @@ export function AllTasks ({tasks, createdTasks}) {
         <div className="info">
             <h2 className="created">Tarefas criadas <span>{createdTasks.length}</span> </h2>
         </div>
-        {createdTasks.length > 0 ?<BoxTasks tasks={tasks} updateTasks={updateTasks}/>:<EmptyTasks/>} 
+        {createdTasks.length > 0 ?<BoxTasks tasks={tasks}/>:<EmptyTasks/>} 
 
         </AllTasksContainer>
     )
