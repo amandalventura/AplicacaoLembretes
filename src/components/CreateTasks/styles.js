@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TaskContainer = styled.section`
+export const TaskContainer = styled.form`
    display: grid;
    grid-template-columns: 3fr .5fr .5fr;
    gap: 8px;
