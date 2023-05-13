@@ -28,3 +28,6 @@ This application was developed to assist in everyday organization by allowing yo
 When adding a new reminder, if the date already exists, it will be displayed in the list for that day. Otherwise, a new day will be created with that reminder.
 
 The days in the reminder list are displayed in chronological order, providing a clear view of future tasks.
+
+![Sem título](https://github.com/amandalventura/AplicacaoLembretes/assets/113949375/d72e46f2-29f5-4820-8684-83b9ff9ddb16)
+
